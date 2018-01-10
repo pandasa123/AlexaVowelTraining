@@ -1,12 +1,12 @@
-# Vowel Training
+# Word Trainer
 
 ### Usage
 
 ```text
-Alexa, tell vowel training to start a game
-	>> Welcome to vowel training. I will ask you multiple choice questions...
+Alexa, tell Word Trainer to start a game
+	>> Welcome to Word Trainer. I will ask you multiple choice questions...
 
-Alexa, start vowel training
+Alexa, start Word Trainer
 ```
 
 ### Repository Contents
@@ -63,7 +63,7 @@ ASK CLI will create the skill and the lambda function for you. The Lambda functi
 2. Simulate verbal interaction with your skill through the command line using the following example:
 
 	```bash
-	 $ ask simulate -l en-GB -t "start vowel training"
+	 $ ask simulate -l en-GB -t "start Word Trainer"
 
 	 ✓ Simulation created for simulation id: 4a7a9ed8-94b2-40c0-b3bd-fb63d9887fa7
 	◡ Waiting for simulation response{
@@ -74,5 +74,5 @@ ASK CLI will create the skill and the lambda function for you. The Lambda functi
 3. Once the "Test" switch is enabled, your skill can be tested on devices associated with the developer account as well. Speak to Alexa from any enabled device, from your browser at [echosim.io](https://echosim.io/welcome), or through your Amazon Mobile App and say :
 
 	```text
-	Alexa, start vowel training
+	Alexa, start Word Trainer
 	```

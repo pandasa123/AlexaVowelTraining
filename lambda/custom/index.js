@@ -1,15 +1,3 @@
-/* eslint-disable  func-names */
-/* eslint-disable  dot-notation */
-/* eslint-disable  new-cap */
-/* eslint quote-props: ['error', 'consistent']*/
-/**
- * This sample demonstrates a simple skill built with the Amazon Alexa Skills
- * nodejs skill development kit.
- * This sample supports en-US lauguage.
- * The Intent Schema, Custom Slots and Sample Utterances for this skill, as well
- * as testing instructions are located at https://github.com/alexa/skill-sample-nodejs-trivia
- **/
-
 'use strict';
 
 const Alexa = require('alexa-sdk');
@@ -32,7 +20,7 @@ const languageString = {
     'en': {
         'translation': {
             'QUESTIONS': questions['QUESTIONS_EN_US'],
-            'GAME_NAME': 'Reindeer Trivia', // Be sure to change this for your skill.
+            'GAME_NAME': 'Word Trainer', // Be sure to change this for your skill.
             'HELP_MESSAGE': 'I will ask you %s multiple choice questions. Respond with the number of the answer. ' +
                 'For example, say one, two, three, or four. To start a new game at any time, say, start game. ',
             'REPEAT_QUESTION_MESSAGE': 'To repeat the last question, say, repeat. ',
@@ -47,8 +35,8 @@ const languageString = {
             'NEW_GAME_MESSAGE': 'Welcome to %s. ',
             'WELCOME_MESSAGE': 'I will ask you %s questions, try to get as many right as you can. ' +
             'Just say the number of the answer. Let\'s begin. ',
-            'ANSWER_CORRECT_MESSAGE': 'correct. ',
-            'ANSWER_WRONG_MESSAGE': 'wrong. ',
+            'ANSWER_CORRECT_MESSAGE': 'Good job! ',
+            'ANSWER_WRONG_MESSAGE': 'Oh no! ',
             'CORRECT_ANSWER_MESSAGE': 'The correct answer is %s: %s. ',
             'ANSWER_IS_MESSAGE': 'That answer is ',
             'TELL_QUESTION_MESSAGE': 'Question %s. %s ',
@@ -59,13 +47,13 @@ const languageString = {
     'en-US': {
         'translation': {
             'QUESTIONS': questions['QUESTIONS_EN_US'],
-            'GAME_NAME': 'American Reindeer Trivia', // Be sure to change this for your skill.
+            'GAME_NAME': 'American Word Trainer', // Be sure to change this for your skill.
         },
     },
     'en-GB': {
         'translation': {
             'QUESTIONS': questions['QUESTIONS_EN_GB'],
-            'GAME_NAME': 'British Reindeer Trivia', // Be sure to change this for your skill.
+            'GAME_NAME': 'British Word Trainer', // Be sure to change this for your skill.
         },
     },
 };

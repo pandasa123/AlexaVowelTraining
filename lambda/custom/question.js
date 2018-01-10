@@ -6,150 +6,233 @@ module.exports = {
      * Make sure the first answer is the correct one. Set at least ANSWER_COUNT answers, any extras will be shuffled in.
      */
     QUESTIONS_EN_GB: [
-        {
-            'What is the vowel in sit?': [
-                'i',
-                'a',
-                'e',
-                'o',
-                'u',
-            ],
-        },
-        {
-            'What is the vowel in sat?': [
-                'a',
-                'e',
-                'i',
-                'o',
-                'u',
-            ],
-        },
-        {
-            'What vowel is in batter but not bitter?': [
-                'a',
-                'e',
-                'i',
-                'o',
-                'u',
-            ],
-        },
-        {
-            'What vowel is in botter but not bitter?': [
-                'o',
-                'e',
-                'i',
-                'a',
-                'u',
-            ],
-        },
-        {
-            'What vowel is in pat but not pet?': [
-                'a',
-                'e',
-                'i',
-                'o',
-                'u',
-            ],
-        },
-        {
-            'What vowel is in pit but not pet?': [
-                'i',
-                'e',
-                'a',
-                'o',
-                'u',
-            ],
-        },
-        {
-            'What vowel is in pot but not pat?': [
-                'o',
-                'e',
-                'a',
-                'i',
-                'u',
-            ],
-        },
-        {
-            'What vowel is in put but not pot?': [
-                'u',
-                'e',
-                'a',
-                'i',
-                'o',
-            ],
-        },
     ],
     QUESTIONS_EN_US: [
         {
-            'What is the vowel in sit?': [
-                'i',
-                'a',
+            'What consonant is in fib but not fig?': [
+                'b',
+                'r',
                 'e',
-                'o',
+            ],
+            'What consonant is in fig but not fin?': [
+                'g',
+                'b',
+                'd',
+            ],
+            'What consonant is in fin but not fit?': [
+                'n',
+                'w',
+                's',
+            ],
+            'What consonant is in fit but not fix?': [
+                't',
+                'r',
+                'l',
+            ],
+            'What consonant is in fix but not fib?': [
+                'x',
+                'p',
+                'l',
+            ],
+            'What consonant is in tin but not tip?': [
+                'n',
+                'a',
+                'l',
+            ],
+            'What vowel is in woe but not woo?': [
+                'e',
+                'a',
                 'u',
             ],
-        },
-        {
-            'What is the vowel in sat?': [
-                'a',
-                'e',
-                'i',
+            'What consonant is in wok but not wow?': [
+                'k',
+                'q',
+                'l',
+            ],
+            'What consonant is in won but not woo?': [
+                'n',
+                'p',
+                'l',
+            ],
+            'What consonant is in gel but not gem?': [
+                'l',
                 'o',
+                'w',
+            ],
+            'What consonant is in get but not gem?': [
+                't',
+                'e',
+                'l',
+            ],
+            'What consonant is in mud but not mug?': [
+                'd',
+                'm',
                 'u',
             ],
-        },
-        {
-            'What vowel is in batter but not bitter?': [
+            'What consonant is in sec but not set?': [
+                'c',
+                'a',
+                's',
+            ],
+            'What consonant is in sew but not set?': [
+                'w',
+                'a',
+                'h',
+            ],
+            'What vowel is in jab but not job?': [
                 'a',
                 'e',
                 'i',
+            ],
+            'What vowel is in jag but not jig?': [
+                'i',
+                'e',
                 'o',
+            ],
+            'What vowel is in jog but not jug?': [
+                'o',
+                'u',
+                'i',
+            ],
+            'What vowel is in jug but not jig?': [
+                'u',
+                'e',
+                'a',
+            ],
+            'What consonant is in cab but not cam?': [
+                'b',
+                'r',
+                'w',
+            ],
+            'What consonant is in can but not cap?': [
+                'n',
+                'y',
+                'm',
+            ],
+            'What consonant is in car but not cat?': [
+                'r',
+                'd',
+                'w',
+            ],
+            'What consonant is in caw but not cap?': [
+                'w',
+                'i',
+                'd',
+            ],
+            'What vowel is in buy but not bud?': [
+                'y',
+                'a',
+                's',
+            ],
+            'What consonant is in ban but not can?': [
+                'b',
+                'h',
+                't',
+            ],
+            'What consonant is in fan but not man?': [
+                'f',
+                'i',
+                'n',
+            ],
+            'What consonant is in pan but not ran?': [
+                'p',
+                'i',
+                't',
+            ],
+            'What consonant is in tan but not van?': [
+                't',
+                'w',
+                'o',
+            ],
+            'What consonant is in van but not ban?': [
+                'v',
+                'w',
                 'u',
             ],
-        },
-        {
-            'What vowel is in botter but not bitter?': [
-                'o',
+            'What consonant is in can but not fan?': [
+                'c',
+                'd',
                 'e',
-                'i',
-                'a',
-                'u',
             ],
-        },
-        {
-            'What vowel is in pat but not pet?': [
-                'a',
-                'e',
-                'i',
-                'o',
-                'u',
+            'What consonant is in gal but not pal?': [
+                'g',
+                'w',
+                'm',
             ],
-        },
-        {
-            'What vowel is in pit but not pet?': [
-                'i',
+            'What consonant is in pod but not pot?': [
+                'd',
                 'e',
-                'a',
-                'o',
-                'u',
+                'l',
             ],
-        },
-        {
-            'What vowel is in pot but not pat?': [
-                'o',
+            'What consonant is in pox but not pow?': [
+                'x',
+                'm',
+                'l',
+            ],
+            'What vowel is in age but not ago?': [
                 'e',
-                'a',
                 'i',
                 'u',
             ],
-        },
-        {
-            'What vowel is in put but not pot?': [
-                'u',
-                'e',
-                'a',
+            'What consonant is in few but not fed?': [
+                'w',
                 'i',
-                'o',
+                'm',
+            ],
+            'What consonant is in tab but not tad?': [
+                'b',
+                'a',
+                'w',
+            ],
+            'What consonant is in tag but not tap?': [
+                'g',
+                'd',
+                'l',
+            ],
+            'What consonant is in tax but not tar?': [
+                'x',
+                'a',
+                'p',
+            ],
+            'What consonant is in tad but not tar?': [
+                'd',
+                'm',
+                'w',
+            ],
+            'What consonant is in jab but not jam?': [
+                'b',
+                'r',
+                'w',
+            ],
+            'What consonant is in jar but not jaw?': [
+                'r',
+                't',
+                's',
+            ],
+            'What consonant is in jaw but not jab?': [
+                'w',
+                'h',
+                'b',
+            ],
+            'What consonant is in nod but not nor?': [
+                'd',
+                't',
+                'a',
+            ],
+            'What consonant is in not but not now?': [
+                't',
+                'm',
+                'p',
+            ],
+            'What consonant is in fly but not ply?': [
+                'f',
+                's',
+                'l',
+            ],
+            'What consonant is in ply but not sly?': [
+                'p',
+                'q',
+                'u',
             ],
         },
     ],
