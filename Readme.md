@@ -16,7 +16,7 @@ Alexa, start Word Trainer
 * `skill.json`	- [Skill Manifest](https://developer.amazon.com/docs/smapi/skill-manifest.html)
 
 My architecure is located in the `Images` directory of the project (```~/Images/architecure.png```)
-![Architecture](https://gitlab.eecs.umich.edu/pandasa/AlexaVowelTraining/blob/1d9dede0e3e341c32baeceed4fe6376a91452e9e/Images/Architecture.jpg)
+![Architecture](https://gitlab.eecs.umich.edu/pandasa/AlexaVowelTraining/Images/Architecture.jpg)
 
 ## Setup w/ ASK CLI
 
@@ -74,7 +74,7 @@ ASK CLI will create the skill and the lambda function for you. The Lambda functi
 	  ...
 	 ```
 	 
-Here's how a sample response looks![Interaction](https://gitlab.eecs.umich.edu/pandasa/AlexaVowelTraining/blob/1d9dede0e3e341c32baeceed4fe6376a91452e9e/Images/Interaction.png)
+Here's how a sample response looks![Interaction](https://gitlab.eecs.umich.edu/pandasa/AlexaVowelTraining/Images/Interaction.png)
 
 And here's a demo video: https://youtu.be/xlEj4wOH-O8
 
