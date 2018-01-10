@@ -14,9 +14,10 @@ Alexa, start Word Trainer
 * `/lambda/custom` - Back-End Logic for the Alexa Skill hosted on [AWS Lambda](https://aws.amazon.com/lambda/)
 * `/models` - Voice User Interface and Language Specific Interaction Models
 * `skill.json`	- [Skill Manifest](https://developer.amazon.com/docs/smapi/skill-manifest.html)
+* `Word Finder.py` - Using a Levenshtein Distance Algorithm, find words that are `distance = 1` apart
 
 My architecure is located in the `Images` directory of the project (```~/Images/architecure.png```)
-![Architecture](https://gitlab.eecs.umich.edu/pandasa/AlexaVowelTraining/Images/Architecture.jpg)
+![Architecture](https://gitlab.eecs.umich.edu/pandasa/AlexaVowelTraining/raw/master/Images/Architecture.jpg)
 
 ## Setup w/ ASK CLI
 
@@ -74,7 +75,7 @@ ASK CLI will create the skill and the lambda function for you. The Lambda functi
 	  ...
 	 ```
 	 
-Here's how a sample response looks![Interaction](https://gitlab.eecs.umich.edu/pandasa/AlexaVowelTraining/Images/Interaction.png)
+Here's how a sample response looks![Interaction](https://gitlab.eecs.umich.edu/pandasa/AlexaVowelTraining/raw/master/Images/Interaction.png)
 
 And here's a demo video: https://youtu.be/xlEj4wOH-O8
 
