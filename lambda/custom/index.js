@@ -1,9 +1,10 @@
+
 'use strict';
 
 const Alexa = require('alexa-sdk');
 const questions = require('./question');
 
-const ANSWER_COUNT = 4; // The number of possible answers per trivia question.
+const ANSWER_COUNT = 3; // The number of possible answers per trivia question.
 const GAME_LENGTH = 5;  // The number of questions per trivia game.
 const GAME_STATES = {
     TRIVIA: '_TRIVIAMODE', // Asking trivia questions.
@@ -38,7 +39,7 @@ const languageString = {
             'ANSWER_CORRECT_MESSAGE': 'Good job! ',
             'ANSWER_WRONG_MESSAGE': 'Oh no! ',
             'CORRECT_ANSWER_MESSAGE': 'The correct answer is %s: %s. ',
-            'ANSWER_IS_MESSAGE': 'That answer is ',
+            'ANSWER_IS_MESSAGE': '',
             'TELL_QUESTION_MESSAGE': 'Question %s. %s ',
             'GAME_OVER_MESSAGE': 'You got %s out of %s questions correct. Thank you for playing!',
             'SCORE_IS_MESSAGE': 'Your score is %s. ',
