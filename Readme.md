@@ -1,4 +1,26 @@
 # Word Trainer
+## Inspiration / What it does
+
+Using Abstract Relational Concept, children can learn how to identify vowels and consonants through the juxtaposition of two words with a `distance == 1`. More on the Development of Relational Concepts and Word Definition in Literature section below
+
+## How I built it
+
+The entire concept revolves around finding words that are `distance == 1` apart. To do that, I built a Levenshtein script that takes in a `dictionary.txt` and outputs the necessary juxtapositions. The question bank is prepared using these juxtapositions and 3 random answer choices. 
+
+To test, I recommend following the instructions in the repository: https://gitlab.eecs.umich.edu/pandasa/AlexaVowelTraining
+
+## Challenges I ran into
+
+I unfortunately started late and had a lot of coursework so I couldn't spend enough time on this but I would like to return to this and improve it in the following ways (next section) 
+
+## What's next for Identifying Vowels and Consonants by Comparisons
+* Change response type
+* Possible extend quiz format: "What consonants are in 'cat'? What consonants are in 'car'? What consonants are in 'cat' but not 'car'?" 
+* Integrate a proper dictionary to search definitions 
+
+## Link to Skill in Store
+
+https://www.amazon.com/dp/B078X83GQD/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1515607690&sr=1-1&keywords=word+trainer
 
 ### Usage
 
@@ -15,9 +37,6 @@ Alexa, start Word Trainer
 * `/models` - Voice User Interface and Language Specific Interaction Models
 * `skill.json`	- [Skill Manifest](https://developer.amazon.com/docs/smapi/skill-manifest.html)
 * `Word Finder.py` - Using a Levenshtein Distance Algorithm, find words that are `distance = 1` apart
-
-My architecure is located in the `Images` directory of the project (```~/Images/architecure.png```)
-![Architecture](https://gitlab.eecs.umich.edu/pandasa/AlexaVowelTraining/raw/master/Images/Architecture.jpg)
 
 ## Setup w/ ASK CLI
 
@@ -75,8 +94,6 @@ ASK CLI will create the skill and the lambda function for you. The Lambda functi
 	  ...
 	 ```
 	 
-Here's how a sample response looks![Interaction](https://gitlab.eecs.umich.edu/pandasa/AlexaVowelTraining/raw/master/Images/Interaction.png)
-
 And here's a demo video: https://youtu.be/xlEj4wOH-O8
 
 3. Once the "Test" switch is enabled, your skill can be tested on devices associated with the developer account as well. Speak to Alexa from any enabled device, from your browser at [echosim.io](https://echosim.io/welcome), or through your Amazon Mobile App and say :
@@ -84,3 +101,10 @@ And here's a demo video: https://youtu.be/xlEj4wOH-O8
 	```text
 	Alexa, start Word Trainer
 	```
+	
+	
+## Literature
+
+Navarro, Gonzalo. "A Guided Tour to Approximate String Matching". Blanco Enchilada 2120 Santiago, Chile. http://repositorio.uchile.cl/bitstream/handle/2250/126168/Navarro_Gonzalo_Guided_tour.pdf
+
+Swartz, Karyl, and Alfred E. Hall. “Development of Relational Concepts and Word Definition in Children Five Through Eleven.” Child Development, vol. 43, no. 1, 1972, pp. 239–244. JSTOR, JSTOR, www.jstor.org/stable/1127887.
