@@ -1,4 +1,7 @@
 # Word Trainer
+
+![Architecture](https://gitlab.eecs.umich.edu/pandasa/AlexaVowelTraining/raw/master/Images/Architecture.jpg)
+
 ## Inspiration / What it does
 
 Using Abstract Relational Concept, children can learn how to identify vowels and consonants through the juxtaposition of two words with a `distance == 1`. More on the Development of Relational Concepts and Word Definition in Literature section below
@@ -93,6 +96,7 @@ ASK CLI will create the skill and the lambda function for you. The Lambda functi
 	  "status": "SUCCESSFUL",
 	  ...
 	 ```
+Here's how a sample response looks![Interaction](https://gitlab.eecs.umich.edu/pandasa/AlexaVowelTraining/raw/master/Images/Interaction.png)
 	 
 And here's a demo video: https://youtu.be/xlEj4wOH-O8
 
