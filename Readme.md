@@ -109,6 +109,8 @@ And here's a demo video: https://youtu.be/xlEj4wOH-O8
 	
 ## Literature
 
+Quiz base: https://github.com/alexa/skill-sample-nodejs-trivia
+
 Navarro, Gonzalo. "A Guided Tour to Approximate String Matching". Blanco Enchilada 2120 Santiago, Chile. http://repositorio.uchile.cl/bitstream/handle/2250/126168/Navarro_Gonzalo_Guided_tour.pdf
 
 Swartz, Karyl, and Alfred E. Hall. “Development of Relational Concepts and Word Definition in Children Five Through Eleven.” Child Development, vol. 43, no. 1, 1972, pp. 239–244. JSTOR, JSTOR, www.jstor.org/stable/1127887.
